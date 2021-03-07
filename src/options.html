@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head><title>My Test Extension Options</title></head>
+<head>
+    <title>WordChanger Options</title>
+    <link rel="stylesheet" href="options.css">
+</head>
 <body>
 
-Search Term:
-<input type="text" id="search1">
-Replace Term:
-<input type="text" id="replace1">
+    <div id="searchTerms">
+        <div class="search-term">
+            <input placeholder="Search Term">
+            <input placeholder="Replace Term">
+        </div>
+    
+    </div>
+    <button id="add">
+    Add Term
+    </button>
 
 <div id="status"></div>
 <button id="save">Save</button>

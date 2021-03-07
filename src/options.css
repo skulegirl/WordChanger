@@ -1,0 +1,15 @@
+input {
+    display: block;
+  }
+  .search-term {
+    display: flex;
+  }
+  .search-term input {
+    margin: 5px;
+  }
+  .search-term button {
+    line-height: 5px;
+  }
+  #add {
+    color: blue;
+  }
