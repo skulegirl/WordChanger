@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Word Changer",
   "description": "Have fun replacing all instances of one word with another on pages you visit.",
-  "version": "0.1",
+  "version": "0.2",
   "permissions": [
     "storage",
     "activeTab"
